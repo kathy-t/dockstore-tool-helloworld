@@ -1,6 +1,6 @@
 version: 1.2
 tools:
-   - name: bad tool name
-     subclass: cwl
+   - subclass: cwl
      primaryDescriptorPath: /Dockstore.cwl
-     publish: false
+     testParameterFiles:
+         - /test.json
