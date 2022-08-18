@@ -17,7 +17,7 @@ dct:creator:
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/kathy_t/dockstore-tool-helloworld:1
+  dockerPull: quay.io/openshift-examples/multi-arch:multi
 
 inputs:
   template_file:
