@@ -5,3 +5,5 @@ tools:
      publish: false
      testParameterFiles:
          - /test.json
+     authors:
+         - orcid: 0000-0001-7641-7724
