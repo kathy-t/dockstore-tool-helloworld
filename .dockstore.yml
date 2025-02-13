@@ -3,7 +3,7 @@ tools:
    - subclass: cwl
      primaryDescriptorPath: /Dockstore.cwl
      # publish: false
-     enableAutoDois: false
+     enableAutoDois: true
      testParameterFiles:
          - /test.json
      authors:
