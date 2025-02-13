@@ -2,7 +2,8 @@ version: 1.2
 tools:
    - subclass: cwl
      primaryDescriptorPath: /Dockstore.cwl
-     publish: false
+     # publish: false
+     enableAutoDois: false
      testParameterFiles:
          - /test.json
      authors:
